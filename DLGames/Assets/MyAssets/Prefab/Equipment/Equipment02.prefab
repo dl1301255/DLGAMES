@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2651370580286566974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2651370580286566975}
+  - component: {fileID: 2651370580286566972}
+  m_Layer: 0
+  m_Name: Equipment02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2651370580286566975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651370580286566974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -50.008236, y: 0.0009405017, z: 35.29772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2651370580286566972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651370580286566974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf60fa722ae1c944be4b27d17f624ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListUPC:
+  - UPCName: Weapon_001_
+    Tags:
+    - RefID_
+    - UnitData
+    ListUP:
+    - UPName: Atk
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: CD
+      UPTypeName: 
+      tags: []
+      stringVal: 0.5
+    - UPName: Range
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: BDEffs
+      UPTypeName: ListStr
+      tags: []
+      stringVal: Damage
+    - UPName: BulletPrefab
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: Bullet_001
+    - UPName: SFX
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: MuzzlePrefab
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: FirePoint
+      UPTypeName: Vector2
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: CD_Del
+      UPTypeName: Float
+      tags:
+      - UnitPropertyTag_DelCD
+      - n
+      stringVal: 0.5
+    - UPName: BulletAudio
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: explosion_energy2
+    - UPName: DynamicCrls
+      UPTypeName: 
+      tags:
+      - def
+      - UPC Name
+      stringVal: AutoExeCrl_
+    - UPName: FireCondition
+      UPTypeName: ListStr
+      tags:
+      - def
+      - UPC Name
+      stringVal: CD
+    - UPName: OwerMgr
+      UPTypeName: 
+      tags:
+      - def
+      - UPC Name
+      stringVal: 
+  ListCrl:
+  - {fileID: 11400000, guid: f45cf961cdfe3014b86faa956cc9acf1, type: 2}
+  - {fileID: 11400000, guid: 7c05bc80fd117a4438d1365dcd6c3850, type: 2}
+  - {fileID: 11400000, guid: b45f9d7d9591daf4a9f8e8299cde9282, type: 2}
+  tn:
+    ID: 0
+    TimeTag: 
+    onPause: 0
+    timeScale: 1
+    _delay: 0
+    _deltaDelay: 0
+    repeatNum: 0
+    onRepeatNum: 0
+    Duration: 0
+    DeltaDuration: 0
+    timeUpdataType: 0
+  equipData: {fileID: 11400000, guid: 384b3f9f32e739b4f8870400691ba445, type: 2}

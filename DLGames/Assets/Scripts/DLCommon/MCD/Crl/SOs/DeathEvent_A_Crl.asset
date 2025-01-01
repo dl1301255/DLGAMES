@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f27c102710494d458feb9d9d17685ce, type: 3}
+  m_Name: DeathEvent_A_Crl
+  m_EditorClassIdentifier: 
+  id: 
+  tags: []
+  DefEffs: []
+  ListDefObjHitCrl:
+  - {fileID: 11400000, guid: fed76d8bce20d2749bef320681a751f2, type: 2}
+  - {fileID: 11400000, guid: 37831e21cb87ce44db87deae65d0b32e, type: 2}
+  useable: 0

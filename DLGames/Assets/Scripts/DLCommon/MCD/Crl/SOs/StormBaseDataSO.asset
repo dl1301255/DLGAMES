@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443b755df6332f0459546d17324855ee, type: 3}
+  m_Name: StormBaseDataSO
+  m_EditorClassIdentifier: 
+  ListUPC:
+  - UPCName: Ship_001
+    Tags:
+    - UnitShip
+    ListUP:
+    - UPName: HV
+      UPTypeName: 
+      tags: []
+      stringVal: 
+    - UPName: SkillBag
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: Skill001
+    - UPName: PerfabName
+      UPTypeName: 
+      tags: []
+      stringVal: Ship_001
+    - UPName: MoveSpeed
+      UPTypeName: 
+      tags: []
+      stringVal: 40
+  - UPCName: Bullet_001
+    Tags:
+    - RefID_
+    - BulletData
+    - UnitData
+    ListUP:
+    - UPName: Atk
+      UPTypeName: Float
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: OwerMgrID
+      UPTypeName: 
+      tags:
+      - def
+      - UPC Name
+      stringVal: 
+    - UPName: BDEffs
+      UPTypeName: ListStr
+      tags: []
+      stringVal: Damage
+    - UPName: TargetObj
+      UPTypeName: 
+      tags:
+      - def
+      - UPC Name
+      stringVal: 
+  - UPCName: Weapon_001_0.2
+    Tags:
+    - UnitData
+    ListUP:
+    - UPName: Atk
+      UPTypeName: Float
+      tags: []
+      stringVal: 25
+    - UPName: CD
+      UPTypeName: 
+      tags: []
+      stringVal: 0.2
+    - UPName: Range
+      UPTypeName: 
+      tags: []
+      stringVal: 
+    - UPName: BDEffs
+      UPTypeName: ListStr
+      tags: []
+      stringVal: Damage
+    - UPName: BulletPrefab
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      - '&&'
+      stringVal: Bullet_001
+    - UPName: SFX
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: MuzzlePrefab
+      UPTypeName: 
+      tags:
+      - n
+      - n
+      stringVal: 
+    - UPName: FirePoint
+      UPTypeName: Vector2
+      tags: []
+      stringVal: 
+    - UPName: CD_Del
+      UPTypeName: Float
+      tags: []
+      stringVal: -0.001332397
+    - UPName: BulletAudio
+      UPTypeName: 
+      tags: []
+      stringVal: explosion_energy2
+    - UPName: DynamicCrls
+      UPTypeName: 
+      tags: []
+      stringVal: AutoExeCrl_
+    - UPName: FireCondition
+      UPTypeName: ListStr
+      tags: []
+      stringVal: CD
+    - UPName: OwerMgr
+      UPTypeName: 
+      tags: []
+      stringVal: 
+    - UPName: EquipmentInitEffs
+      UPTypeName: ListStr
+      tags: []
+      stringVal: EquipmentInitShoot_AEff
+    - UPName: FiredEffs
+      UPTypeName: 
+      tags: []
+      stringVal: FanShape
+    - UPName: 
+      UPTypeName: 
+      tags: []
+      stringVal: 
+    - UPName: 
+      UPTypeName: 
+      tags: []
+      stringVal: 
+  - UPCName: LP001
+    Tags: []
+    ListUP:
+    - UPName: CreaterCD
+      UPTypeName: CounterfFoat
+      tags: []
+      stringVal: 0.5,0
+    - UPName: CreaterNum
+      UPTypeName: CounterInt
+      tags: []
+      stringVal: 10
+    - UPName: Lv
+      UPTypeName: Init
+      tags: []
+      stringVal: 1
+    - UPName: NumberLv
+      UPTypeName: Int
+      tags: []
+      stringVal: 
+    - UPName: PowerLv
+      UPTypeName: Int
+      tags: []
+      stringVal: 
+  - UPCName: Holes_02
+    Tags:
+    - UnitData
+    ListUP:
+    - UPName: HP
+      UPTypeName: Float_A
+      tags:
+      - n
+      - n
+      stringVal: 100
+    - UPName: Stength
+      UPTypeName: Int
+      tags: []
+      stringVal: 2
+  - UPCName: Holes_01
+    Tags:
+    - UnitData
+    ListUP:
+    - UPName: HP
+      UPTypeName: Float_A
+      tags:
+      - n
+      - n
+      stringVal: 100
+    - UPName: Stength
+      UPTypeName: Int
+      tags: []
+      stringVal: 1
+  ListUPCS: []

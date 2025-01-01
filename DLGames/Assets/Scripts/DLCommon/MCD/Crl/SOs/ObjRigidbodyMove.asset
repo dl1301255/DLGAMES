@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feed84d7c3d6bad44870f2df20cbb07f, type: 3}
+  m_Name: ObjRigidbodyMove
+  m_EditorClassIdentifier: 
+  id: 
+  tags: []
+  mCDCrlSOs: []
+  speed: 57.65
+  Animatorable: 1
+  lockY: 1
+  animaName: H
+  Audioable: 0
+  AudioUP: 

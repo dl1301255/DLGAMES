@@ -1,0 +1,4 @@
+repository "DLGames@dl1301255@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

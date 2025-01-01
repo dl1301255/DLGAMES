@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee7eaf52ae11b6469e99bb93d9a8626, type: 3}
+  m_Name: DicListCrlSO_Storm_A
+  m_EditorClassIdentifier: 
+  ListCrlValues:
+  - key: Common
+    Crls:
+    - {fileID: 11400000, guid: cb0ca3856941f9d4a82e34e8593d551c, type: 2}
+    - {fileID: 11400000, guid: 71ed0c28f5b405243b9dc71a8df30bee, type: 2}
+    - {fileID: 11400000, guid: ec2612548d0049c42a9b0f9c66c17b4d, type: 2}
+    - {fileID: 11400000, guid: b45f9d7d9591daf4a9f8e8299cde9282, type: 2}
+    - {fileID: 11400000, guid: 645778b6ec261c14ea90df9e11f06ddb, type: 2}
+    - {fileID: 11400000, guid: 582966fde0701664f8200d0c65728f13, type: 2}
+    - {fileID: 11400000, guid: d3bcba6ebf5a057409c4cfe47f91dd5d, type: 2}
+    - {fileID: 11400000, guid: 214d0b87f0f276945bd82398ddbfbbd3, type: 2}
+  - key: Storm
+    Crls: []

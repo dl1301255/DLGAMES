@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e933fa484070f0f4e97d56db944a4f9e, type: 3}
+  m_Name: EnemyCreater_01
+  m_EditorClassIdentifier: 
+  id: EnemyCreater
+  tags: []
+  enemyPos: {x: 0, y: 0, z: 160}
+  enemyPosOffset: {x: 40, y: 0, z: 10}
+  ListMgr: []
+  CreaterCD: 0.5
+  MaxStrength: 50
+  MinNum: 20
+  StrengthRangue: 0
+  StrengthRandomProportion: 0.749
+  CrMaxNum: 20
+  configTotalStrengt: 0
+  creatableNum: 0
+  crNum: 0
+  createrCDDel: 0
+  listDefEnemey:
+  - Holes_01
+  - Holes_02
+  ListCrEnemy: []
+  ListEnemyData: []
+  McdMgr: {fileID: 0}

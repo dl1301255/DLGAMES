@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 599b08d0c3b5cd346a5ed27799d0dfae
+  m_SerializeEntries:
+  - m_GUID: 0fcef03e341ac7d498ecc109af96ffe1
+    m_Address: Ship_Fighter_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b71c36394bc42f43aeeb3c257f87fe4
+    m_Address: Skill001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf4d9ba4eac740d4b888fdb817d53307
+    m_Address: FX_Beacon_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 038d151d0e5e7bb49b85b8934673d254
+    m_Address: Door 1_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ab1bcdb9ac05b343beccc5e33860ada
+    m_Address: AtkNum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 568058036eabaac41a702f321d93f683
+    m_Address: Bullet_001_My
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72be97f3df1ffaa49afdb8dda389a6c8
+    m_Address: Bullet_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a6217d9de992e944ba79de4a4046126
+    m_Address: Bullet_001_Impact
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1da4bf19abc4e5646917b8156e2e1638
+    m_Address: Assets/PolygonSciFiSpace
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38136da243d44ed4eb7cf7ede53968b3
+    m_Address: Assets/Scripts/DLCommon/MCD/Crl/SOs
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 953c8b04d1b9f1a44be6ea2c49244d0f
+    m_Address: Holes_01_Explosion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6f4724f30e5e1748b8b1ee1c4e2771a
+    m_Address: Assets/MyAssets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7444ff76773a90b47b760e26c2ab3009, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e67fc3062e80f4a4a986572d5c411ce3, type: 2}
+    - {fileID: 11400000, guid: 8175872b37e07a74c8fe9f70abf78610, type: 2}
